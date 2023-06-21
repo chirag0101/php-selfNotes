@@ -44,5 +44,18 @@
             echo "<br>";
         }
 
+        //associative multi-dim array
+        $age=array(
+            "chirag"=>array(19,03),
+            "rupali"=>array(44,80),
+            "sanjay"=>array(52,69)
+        );
+
+        foreach($age as $key=>$value){
+            foreach($value as $value2){
+                echo $value2." ";
+            }
+            echo "<br>";
+        }
 
 ?>

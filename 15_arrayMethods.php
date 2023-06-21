@@ -130,6 +130,49 @@
       //array_sum() used to add the elements of the array same array_product() to find the product
       //array_rand() is used for selecting any random element from an array
       //array_shuffle()  is used to shuffle the position of elements in an array
-      //
+      
+      $arr20=[10,30,20,50,40];
+      sort($arr20);
+      echo "<pre>";
+      print_r($arr20);
+      echo "</pre>";
 
+      //rsort() is used to sort the array in descending order
+      //ksort() is used to sort the array according to their keys
+      //krsort()
+      //asort()  used to sort an associative array
+      //arsort()  used to sort an associative array in descending order
+      //natsort() natcasesort() array_multisort()->used to sort multi arrays simultaneously
+
+
+      //traversing functions
+
+      $arr21=[10,20,30,40,50];
+
+      echo next($arr21);    //prev() end() current() key() pos() each()->returns key as well as value of current position
+
+
+      //extract compact
+
+      $arr22=['a'=>'a1','b'=>'b1'];
+      extract($arr22);                            // converts the keys of an array into variables
+      echo $a;
+
+    $a1=1;
+    $a2=2;
+    $a3=3;
+
+    $arr23=compact("a1","a2","a3");   //converts variables back into keys
+    print_r($arr23);
+
+
+    //range function
+                  
+                  //start end step
+    $arr24=range(1,10,2);
+    print_r($arr24);
+
+    foreach(range('a','h') as $alphabet){
+        echo $alphabet." ";
+    }
 ?>

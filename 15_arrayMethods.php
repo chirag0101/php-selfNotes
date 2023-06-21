@@ -125,4 +125,11 @@
       print_r($arr19);  
       //array_unique() this method returns unique values from an array
 
+      //array_flip() is used to make keys as values & values as keys
+      //array_change_key_case() is used to change the case of keys CASE_UPPER or by default lower 
+      //array_sum() used to add the elements of the array same array_product() to find the product
+      //array_rand() is used for selecting any random element from an array
+      //array_shuffle()  is used to shuffle the position of elements in an array
+      //
+
 ?>

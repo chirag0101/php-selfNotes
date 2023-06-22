@@ -80,4 +80,12 @@
 
     //ex: rtrim(), ltrim(),chop(),etc
 
+    $str="hello";
+
+    $str1=ord($str);                                                        //calculates the ascii value of the very first alphabet of the string
+
+    echo $str1."<br>";
+
+    echo chr($str1)."<br>";                                             //returns the alphabet associated to the given ascii value
+
  ?>

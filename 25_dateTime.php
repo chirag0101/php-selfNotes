@@ -31,6 +31,7 @@
 
     //magic functions
 
-    echo date("d-m-y",strtotime("now"))."<br>";                                         //strtotime gives whatever time you type in
+    echo date("d-m-y",strtotime("now"))."<br>";                                         //strtotime gives whatever time you type in ex : next monday, +3 days, etc
 
+    
 ?>

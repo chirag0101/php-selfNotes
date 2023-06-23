@@ -162,17 +162,20 @@
     $a2=2;
     $a3=3;
 
+    echo "<br>"; 
+
     $arr23=compact("a1","a2","a3");   //converts variables back into keys
     print_r($arr23);
 
-
+    echo "<br>"; 
     //range function
                   
                   //start end step
     $arr24=range(1,10,2);
-    print_r($arr24);
+    print_r($arr24)."<br>";
 
     foreach(range('a','h') as $alphabet){
         echo $alphabet." ";
     }
+
 ?>

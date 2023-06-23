@@ -1,11 +1,13 @@
 <?php
-
+    //session_start();
+    
     echo "<pre>";
+    //echo $_SESSION["name"];
     // print_r( $_GET);
     // print_r( $_POST);
     // print_r( $_REQUEST);
     //print_r($_SERVER);
-    setcookie("user", "",time()-(86400*30),"/");        //to delete the cookie
+    // setcookie("user", "",time()-(86400*30),"/");        //to delete the cookie
     // print_r($_COOKIE);
     echo "</pre>";
 

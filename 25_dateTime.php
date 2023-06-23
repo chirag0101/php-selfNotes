@@ -33,5 +33,12 @@
 
     echo date("d-m-y",strtotime("now"))."<br>";                                         //strtotime gives whatever time you type in ex : next monday, +3 days, etc
 
+    //get current timezone
+
+    echo date_default_timezone_get()."<br>";                                              //get the current timezone name
+
+    //date_default_timezone_set()                                                                   //set the new timezone name
+
+    
     
 ?>
